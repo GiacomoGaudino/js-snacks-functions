@@ -28,8 +28,8 @@ const firstChar = (nameArray) => {
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const namesInitial = firstChar(names);
-console.log(namesInitial);
+
+console.log(firstChar(names));
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

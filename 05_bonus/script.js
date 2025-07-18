@@ -11,8 +11,22 @@ const name = 'Mario';
 // Dichiara la funzione qui.
 
 
+function greetings(name) {
+    const time = new Date();
+    if (time.getHours() < 13) {
+        return `Buongiorno ${name}`
+    } else if (time.getHours() < 17) {
+        return `Buon pomeriggio ${name}`
+    } else {
+        return `Buonasera ${name}`
+    }
+}
+
+
+
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(greetings(name));
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
