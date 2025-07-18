@@ -4,10 +4,30 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
-
+/*
+function thisChar(array, letter) {
+    const firstChar = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
+            firstChar.push(array[i])
+        }
+    }
+    return firstChar;
+}
+*/
+// arrow function
+const thisChar = (array, letter) => {
+    const firstChar = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
+            firstChar.push(array[i])
+        }
+    }
+    return firstChar;
+}
 // Invoca la funzione qui e stampa il risultato in console
 
+console.log(thisChar(names, "a"));
 
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]

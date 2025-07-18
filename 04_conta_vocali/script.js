@@ -5,8 +5,19 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 
+/*
+function allVocal (text) {
+    const vocal = text.match(/[aeiouAEIOU]/g).join("").length;
+    return vocal;
+}
+*/
+// arrow function
+
+const allVocal = (text) => text.match(/[aeiouAEIOU]/g).join("").length;
 
 // Invoca la funzione qui e stampa il risultato in console
+
+console.log(allVocal(word));
 
 
 
