@@ -7,7 +7,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 /*
 function firstChar(nameArray) {
     let initials = [];
-    for (i = 0; i < nameArray.length; i++) {
+    for (let i = 0; i < nameArray.length; i++) {
         const thisChar = nameArray[i].charAt(0);
         initials.push(thisChar);
     }
@@ -17,7 +17,7 @@ function firstChar(nameArray) {
 //arrow function
 const firstChar = (nameArray) => {
     let initials = [];
-    for (i = 0; i < nameArray.length; i++) {
+    for (let i = 0; i < nameArray.length; i++) {
         const thisChar = nameArray[i].charAt(0);
         initials.push(thisChar);
     }
