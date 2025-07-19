@@ -5,22 +5,22 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 // Dichiara la funzione qui.
 /*
-function thisChar(array, letter) {
+function thisChar(nameArray, letter) {
     const firstChar = [];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
-            firstChar.push(array[i])
+    for (let i = 0; i < nameArray.length; i++) {
+        if (nameArray[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
+            firstChar.push(nameArray[i])
         }
     }
     return firstChar;
 }
 */
 // arrow function
-const thisChar = (array, letter) => {
+const thisChar = (nameArray, letter) => {
     const firstChar = [];
-    for (let i = 0; i < array.length; i++) {
-        if (array[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
-            firstChar.push(array[i])
+    for (let i = 0; i < nameArray.length; i++) {
+        if (nameArray[i].charAt(0).toLowerCase() === letter.toLowerCase()) {
+            firstChar.push(nameArray[i])
         }
     }
     return firstChar;

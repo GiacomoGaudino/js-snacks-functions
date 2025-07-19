@@ -11,7 +11,7 @@ function greetings (name) {
 }
 */
 //arrow function
-const greetings = (name) => `Ciao ${name}`;
+const greetings = name => `Ciao ${name}`;
 
 
 // Invoca la funzione qui e stampa il risultato in console
